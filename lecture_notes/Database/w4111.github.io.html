@@ -1,0 +1,553 @@
+
+<!-- saved from url=(0024)https://w4111.github.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta content="utf-8" http-equiv="encoding">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./w4111.github.io_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./w4111.github.io_files/style.css">
+    <script type="text/javascript" async="" src="./w4111.github.io_files/analytics.js"></script><script src="./w4111.github.io_files/jquery.js"></script>
+    <script src="./w4111.github.io_files/handlebars.js"></script>
+    <script src="./w4111.github.io_files/underscore.js"></script>
+    <script src="./w4111.github.io_files/bootstrap.min.js"></script>
+  </head>
+<body>
+
+
+
+<div class="largeheader centered splitafter">
+	<div class="container">
+		<div class="deco">COLUMBIA UNIVERSITY COMS W4111.002</div>
+    <div class="title"><a href="https://w4111.github.io/" style="color:black;">INTRODUCTION TO DATABASES</a></div>
+	</div>
+</div>
+
+
+
+<div class="row content" style="margin-top: 2em;">
+  <div class="col-md-2 col-md-offset-1">
+		
+		<h4 id="information">Information</h4>
+
+<ul>
+  <li>T/Th 4-5:30PM <br>
+501 Northwest Corner  <br>
+3 units</li>
+  <li><a href="https://w4111.github.io/syllabus">Syllabus</a></li>
+  <li><a href="https://piazza.com/columbia/fall2018/databasesw4111">Piazza</a></li>
+  <li><a href="https://goo.gl/forms/QIfWsPnwu3YHtamk1">Provide Feedback</a></li>
+  <li><a href="http://github.com/w4111">Course Github</a></li>
+</ul>
+
+<h4 id="staff">Staff</h4>
+
+<ul>
+  <li><a href="http://www.eugenewu.net/">Eugene Wu</a> <small>Instructor</small> <br>
+<small>Thurs 5:30 in 421 Mudd</small></li>
+  <li>Felipe Rocha <small>IA</small> <small>(<a href="mailto:felipe.rocha@columbia.edu">email</a>)</small><br>
+<small>Wed 2:00-4:00 in <a href="https://ia.cs.columbia.edu/tamap.shtml">TA room</a></small></li>
+  <li>Amita Shukla <small>IA</small> <br>
+<small>Thurs 1:30-3:30 in <a href="https://ia.cs.columbia.edu/tamap.shtml">TA room</a></small></li>
+  <li>Amit Bhat <small>IA</small> <br>
+<small>Tue 11:30-1:30 in <a href="https://ia.cs.columbia.edu/tamap.shtml">TA room</a></small></li>
+  <li>Ivy Chen <small>IA</small> <br>
+<small>Mon 2:30-4:30 in <a href="https://ia.cs.columbia.edu/tamap.shtml">TA room</a></small></li>
+  <li>Zhijian <small>(Chih-Chi’an)</small> Jiang <small>IA</small> <br>
+<small>Tue 2:00-4:00 in <a href="https://ia.cs.columbia.edu/tamap.shtml">TA room</a></small></li>
+  <li>Mayank Saxena <small>IA</small> <br>
+<small>Fri 3:00-5:00 in <a href="https://ia.cs.columbia.edu/tamap.shtml">TA room</a></small></li>
+</ul>
+
+<h4 id="prereqs">Prereqs</h4>
+
+<ul>
+  <li>Required: Students are expected to be comfortable with data structures and Python.</li>
+  <li>Required: COMS W3134, COMS W3137, or COMS W3136</li>
+</ul>
+
+<h4 id="grading">Grading</h4>
+
+<ul>
+  <li>Homeworks <small>15%</small>
+    <ul>
+      <li><a href="https://github.com/w4111/hw0">HW0</a> <small>0%</small></li>
+      <li><a href="https://github.com/w4111/hw1">HW1</a> <small>3.75%</small></li>
+      <li><a href="https://github.com/w4111/hw2">HW2</a> <small>3.75%</small></li>
+      <li><a href="https://github.com/w4111/hw3">HW3</a> <small>3.75%</small></li>
+      <li><a href="https://github.com/w4111/hw4">HW4</a> <small>3.75%</small></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/w4111/project1">Project 1</a> <small>15%</small></li>
+  <li><a href="https://github.com/w4111/project2">Project 2</a> <small>5%</small></li>
+  <li>Midterm 1 <small>25%</small></li>
+  <li>Midterm 2 <small>40%</small></li>
+  <li><a href="https://github.com/w4111/scribenotes/wiki">Scribe Notes</a>  <br>
+<small><a href="https://w4111.github.io/syllabus#ec">Extra Credit</a></small></li>
+  <li><a href="https://github.com/w4111/advanced">Advanced Assignments</a><br>
+<small><a href="https://w4111.github.io/syllabus#ec">Extra Credit</a></small></li>
+</ul>
+
+
+	</div>
+  <div class="col-md-8">
+		<h4 id="overview">Overview</h4>
+
+<p>The goal of this class is two-fold. First, to introduce you to core database concepts (e.g., data modeling, logical design, SQL) so that you too can build a billion dollar application. Second, to teach enough about database engine internals (e.g., physical database design, query optimization, transaction processing) so you have a good sense of why queries may be running slowly/incorrectly.</p>
+
+<p><strong>Advanced Assignments</strong>  There will be an experimental set of <a href="https://github.com/w4111/advanced">optional extra-credit assignments</a> that will dive deeper into concepts introduced in class.   Some of them will involve extending a simple Python-based database engine with additional functionality!  They are labeled <code class="highlighter-rouge">AA#</code> in the schedule.  There is no obligation to do these, but they are available if you want to do then in addition to, or in lieu of the normal assignments.</p>
+
+<h4 id="recent-announcements">Recent Announcements</h4>
+
+<ul>
+  <li>(9/5) Do you have trouble figuring out what your Python code is doing?  <a href="http://pythontutor.com/">PythonTutor</a> visualizes what Python is doing at each step in the program.  See if it helps!</li>
+  <li>(9/5) You are welcome to find project partner on your own.  If you want to be auto-matched with a project partner,  <a href="https://goo.gl/forms/ail3TK0sNpRi7qFR2">sign up here</a> by 9/7 10AM EST, and we will auto-match you will a teammate by 9/10.  Matches are <strong>binding</strong> so be sure you want to be matched automatically before submitting.</li>
+  <li>(9/1) Please do not email me with questions about registration and enrollment.  Enrollments will be based on the waitlist and completion of HW0.   Historically, students that stick with the class have been able to enroll.</li>
+</ul>
+
+<h4 id="schedule">Schedule</h4>
+
+<table class="table table-striped schedule">
+  <thead>
+  <tr>
+    <th class="date" style="width: 4em; max-width: 4em;"> <p> <span>Date </span> </p> </th>
+    <th style="min-width: 20%;"> <p> <span>Topic </span> </p> </th>
+    <!--<th style="width: 15%"> <p> <span>Readings </span> </p> </th>-->
+    <th style="width: 25%;"> <p> <span>Assigned</span> </p> </th>
+    <th style="width: 25%;"> <p> <span>Due</span> </p> </th>
+  </tr>
+  </thead>
+
+  <tbody><tr style="background-color: white; ">
+    <td class="date">4-Sep</td>
+    <td class="slug">
+       <a href="https://w4111.github.io/files/lectures/lec1.pdf"> 
+        Intro
+       </a> 
+      <br>
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 1</td>-->
+    <td> <a href="https://github.com/w4111/hw0">HW 0</a> </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #e7f8ff; ">
+    <td class="date">6-Sep</td>
+    <td class="slug">
+       <a href="https://w4111.github.io/files/lectures/lec2.pdf"> 
+        Entity-Relationship Modeling
+       </a> 
+      <br>ER Modeling
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 2</td>-->
+    <td> <a href="https://github.com/w4111/hw1">HW 1</a><br><a href="https://github.com/w4111/project1">Project 1 Part 1.</a> <br>LOOK FOR TEAMMATE </td>
+    <td> HW 0 Fri 9/7 10AM<br>You will receive a 0 in this class if HW0 not completed on time -- no exceptions<br><br><a href="https://goo.gl/forms/ail3TK0sNpRi7qFR2">Deadline to sign up for proj1 matching system</a> 9/7 10AM est </td>
+  </tr>
+
+  <tr style="background-color: #e7f8ff; ">
+    <td class="date">11-Sep</td>
+    <td class="slug">
+       <a href="https://w4111.github.io/files/lectures/lec3.pdf"> 
+        Entity-Relationship Modeling + Nonrelational Models
+       </a> 
+      <br>More constraints, using ER models
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 2</td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #e7f8ff; ">
+    <td class="date">13-Sep</td>
+    <td class="slug">
+       <a href="https://w4111.github.io/files/lectures/lec4.pdf"> 
+        Relational Model
+       </a> 
+      <br>Dawn before time: non relational models.
+      <br>
+      optional: <a href="https://w4111.github.io/reading/goesaroundcomesaround.pdf">What goes around comes around</a><br>optional: <a href="https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/">NoSQL data modeling techniques</a>
+      </td>
+    <!--<td class="readings">Chapter 3</td>-->
+    <td> <a href="https://github.com/w4111/advanced/">AA1</a> </td>
+    <td> Formed team for Project 1 (no deliverable)<br><br>HW 1 Part 1 (ER diagram) 10AM (digital copy) </td>
+  </tr>
+
+  <tr style="background-color: #e7f8ff; ">
+    <td class="date">18-Sep</td>
+    <td class="slug">
+      
+        Relational Model
+      
+      <br>ER and Relational Review.
+      <br>
+      optional: <a href="https://w4111.github.io/reading/goesaroundcomesaround.pdf">What goes around comes around</a>
+      </td>
+    <!--<td class="readings">Chapter 3</td>-->
+    <td>  </td>
+    <td> Project 1 Part 1 approval phase  </td>
+  </tr>
+
+  <tr style="background-color: #e7f8ff; ">
+    <td class="date">20-Sep</td>
+    <td class="slug">
+      
+        Relational Model
+      
+      <br>Intro to Relational Algebra
+      <br>
+      optional: <a href="https://w4111.github.io/reading/codd.pdf">Original Relational Model paper</a>
+      </td>
+    <!--<td class="readings">Chapter 3</td>-->
+    <td>  </td>
+    <td> Project 1 Part 1 approval phase  </td>
+  </tr>
+
+  <tr style="background-color: #f2f9ed; ">
+    <td class="date">25-Sep</td>
+    <td class="slug">
+      
+        Relational Algebra
+      
+      <br>
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td> Project 1 Part 1 approval phase <br><br>HW1 Part 2 Schema 10AM  </td>
+  </tr>
+
+  <tr style="background-color: #f2f9ed; ">
+    <td class="date">27-Sep</td>
+    <td class="slug">
+      
+        Relational Algebra
+      
+      <br>ER to Relational, supplemental notes
+      
+      
+      </td>
+    <!--<td class="readings">Sections 4.1 and 4.2</td>-->
+    <td> <a href="https://github.com/w4111/project1">Project 1 Part 2.</a> <br><a href="https://github.com/w4111/advanced/">AA2</a> </td>
+    <td> Project 1 Part 1  10AM digital copy<br>AA1 10AM </td>
+  </tr>
+
+  <tr style="background-color: #f2f9ed; ">
+    <td class="date">2-Oct</td>
+    <td class="slug">
+      
+        Relational Algebra
+      
+      <br>
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #f2f9ed; ">
+    <td class="date">4-Oct</td>
+    <td class="slug">
+      
+        SQL
+      
+      <br>Knee deep in SQL
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 5<br/><a href="https://github.com/w4111/syllabus/blob/master/lectures/lec11.pdf">Aggregation Slides</a></td>-->
+    <td> <a href="https://www.instabase.com/ewu/w4111-public/fs/Instabase%20Drive/HW2/">HW 2</a> </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #f2f9ed; ">
+    <td class="date">9-Oct</td>
+    <td class="slug">
+      
+        SQL
+      
+      <br>Order by and UDFs
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 5<br/><a href="https://github.com/w4111/syllabus/blob/master/reading/midterm1-practice1.pdf">Midterm Practice 1</a><br/><a href="https://github.com/w4111/syllabus/blob/master/reading/midterm1-practice2.pdf">Midterm Practice 2</a></td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #f2f9ed; ">
+    <td class="date">11-Oct</td>
+    <td class="slug">
+      
+        SQL
+      
+      <br>Triggers, WITH, Views.
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 5<br/>(optional)<a href="https://github.com/w4111/syllabus/blob/master/reading/triggerman.pdf">Scalable Trigger support</a></td>-->
+    <td>  </td>
+    <td> Project 1 Part 2 10AM<br>AA2  10AM </td>
+  </tr>
+
+  <tr style="background-color: white; ">
+    <td class="date">16-Oct</td>
+    <td class="slug">
+      
+        Midterm Review
+      
+      <br>
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td> HW 2 Due 10AM. </td>
+  </tr>
+
+  <tr style="background-color: white; ">
+    <td class="date">18-Oct</td>
+    <td class="slug">
+      
+        Midterm: closed book
+      
+      <br>one 8x11 page cheat sheet both sides
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td> <a href="https://github.com/w4111/project1/blob/master/part3.md">Project 1 Part 3</a><br><a href="https://github.com/w4111/hw3">HW 3</a><br><a href="https://github.com/w4111/advanced/tree/master/databass">AA3</a> </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #edf3f9; ">
+    <td class="date">23-Oct</td>
+    <td class="slug">
+      
+        APIs (Guest Lecture: <a href="http://sellam.me/">Thibault Sellam</a>)
+      
+      <br>DBAPIs, Impedance Mismatches, SQL Injection
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 6</td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #edf3f9; ">
+    <td class="date">25-Oct</td>
+    <td class="slug">
+      
+        Normalization (Guest Lecture: <a href="http://www.cs.columbia.edu/~fotis/">Fotis Psallidas</a>)
+      
+      <br>Redundancy and Functional Dependencies
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 19 except 19.8 (you do need to know 3NF at the level of lecture)</td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #edf3f9; ">
+    <td class="date">30-Oct</td>
+    <td class="slug">
+      
+        Normalization
+      
+      <br>
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 8 (level of detail covered in class)</td>-->
+    <td> <a href="https://github.com/w4111/advanced/tree/master/databass">AA4</a> </td>
+    <td> AA3  10AM </td>
+  </tr>
+
+  <tr style="background-color: #ddf9ff; ">
+    <td class="date">1-Nov</td>
+    <td class="slug">
+      
+        Physical Design
+      
+      <br>Disk storage, Heap Files
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #ddf9ff; ">
+    <td class="date">8-Nov</td>
+    <td class="slug">
+      
+        Physical Design
+      
+      <br>B+Trees, Hash Files, Single operator optimizations
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td> Project 1 Part 3 10AM </td>
+  </tr>
+
+  <tr style="background-color: #ddf9ff; ">
+    <td class="date">13-Nov</td>
+    <td class="slug">
+      
+        Query Processing
+      
+      <br>Query plans, statistics, join algorithms
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 12 (level of detail covered in class)</td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #ddf9ff; ">
+    <td class="date">15-Nov</td>
+    <td class="slug">
+      
+        Query Processing
+      
+      <br>Join algorithms and Selinger
+      <br>
+      optional: <a href="https://w4111.github.io/reading/selinger.pdf">Access Path Selection in a Relational Database Management System</a>
+      </td>
+    <!--<td class="readings">Chapter 12 (level of detail covered in class)</td>-->
+    <td> <a href="https://github.com/w4111/hw4">HW 4</a><br><a href="https://www.instabase.com/ewu/w4111-public/fs/Instabase%20Drive/PROJ2/">Project 2</a><br><a href="https://github.com/w4111/advanced/tree/master/databass">AA5</a> </td>
+    <td> HW 3 10AM<br>AA4  10AM </td>
+  </tr>
+
+  <tr style="background-color: #ddf9ff; ">
+    <td class="date">20-Nov</td>
+    <td class="slug">
+      
+        Transaction Processing
+      
+      <br>Concurrency Control
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 16 (level of detail covered in class). Ignore 16.5, 16.6.</td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: #ddf9ff; ">
+    <td class="date">27-Nov</td>
+    <td class="slug">
+      
+        Transaction Processing
+      
+      <br>Concurrency Control
+      
+      
+      </td>
+    <!--<td class="readings">Chapter 16 (level of detail covered in class). Ignore 16.5, 16.6.</td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: white; ">
+    <td class="date">29-Nov</td>
+    <td class="slug">
+      
+        Transaction Processing
+      
+      <br>Recovery
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td> HW 4 10AM </td>
+  </tr>
+
+  <tr style="background-color: white; ">
+    <td class="date">4-Dec</td>
+    <td class="slug">
+      
+        Advanced DB and Research Topics (not on exam)
+      
+      <br>The Future and More
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: white; ">
+    <td class="date">6-Dec</td>
+    <td class="slug">
+      
+        Exam 2 (Cumulative): Closed Book
+      
+      <br>1/2 page cheat sheet
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td>  </td>
+  </tr>
+
+  <tr style="background-color: white; ">
+    <td class="date">10-Dec</td>
+    <td class="slug">
+      
+        No lecture
+      
+      <br>
+      
+      
+      </td>
+    <!--<td class="readings"></td>-->
+    <td>  </td>
+    <td> Project 2 10AM<br>AA5 10AM </td>
+  </tr>
+
+</tbody></table>
+
+
+  </div>
+  <div class="joiner"></div>
+</div>
+
+<div class="row footer">
+<div class="col-md-4 col-md-offset-4" style="text-align: center;">
+  Layout borrowed from <a href="http://cs.lmu.edu/~ray/">ray toal</a>
+</div>
+</div>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./w4111.github.io_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109213291-1');
+</script>
+
+
+
+
+</body></html>
