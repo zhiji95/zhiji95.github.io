@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+.border-radius {
+  border-radius: 5px;
+}
+body {
+  background: url(https://storage.pixteller.com/designs/designs-images/2017-07-30/11/backgrounds-passion-simple-background-image-1-597d9ce0dadc8.png) no-repeat fixed;
+  background-size: cover;
+  /*background-position: 50%;*/
+  font-family: 'Roboto';
+  color: #fff;
+}
+.tabs,
+.form {
+  width: 390px;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+.tabs {
+  background: #1ab188;
+  height: 60px;
+  margin: 50px auto 10px;
+  color: #dd878d
+}
+.form {
+  height: auto;
+  margin: 25px auto;
+  background: #DD878D;
+}
+li {
+  display: block;
+  width: 40%;
+  height: 30px;
+  vertical-align: middle;
+  float: left;
+  margin: 15px;
+  padding: 0;
+  border-right: 1px solid #fff;
+}
+li:last-child {
+  border: none;
+}
+li a {
+  text-decoration: dashed;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 22px;
+  font-family: verdana;
+}
+
+li a:active {
+  color: #fff;
+  text-decoration: none;
+}
+li a:link {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  margin-top: 20px;
+}
+.input {
+  margin: 20px ;
+}
+input.main-form {
+  border: 1px solid #a0b3b0;
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: #DD878D;
+  background: #000;
+  font-size: 16px;
+}
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: top;
+}
+.input a {
+  color: rgba(21, 21, 21, 0.97);
+}
+.form input.btn {
+  background: #1ab188;
+  border: none;
+}
+
+
+
+p {
+  font-family: verdana;
+  font-size: larger;
+  font-color: #DD878D;
+}

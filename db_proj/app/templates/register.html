@@ -1,0 +1,110 @@
+{#{% extends "base.html" %}#}
+<html lang="en" >
+    {% block content %}
+            <head>
+          <meta charset="UTF-8">
+          <title>Login or Register Form</title>
+
+
+          <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+          <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+              <link rel="stylesheet" href="/static/style.css" type = "text/css">
+            <style type="text/css">
+
+    textarea {
+    width: 300px;
+    height: 7em;
+    }
+    select{
+    width: 300px;
+    height: 21em;
+    }
+    input, select, textarea {
+    color: #151515;
+    }
+    #example {
+    color: #0000ff;
+    }
+
+    </style>
+
+        </head>
+    <body>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                  <ul class="tabs">
+                    <li><a href="{{ url_for('login') }}" id="1">LOGIN</a></li>
+                    <li><a href="#" id="2">SIGN UP</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form row" id="login">
+                      <div class="col-sm-12 container">
+                        <form action="" method="post" novalidate>
+                    {{ form.hidden_tag() }}
+                    <p>
+                        {{ form.username.label }}<br>
+                        {{ form.username(size=32) }}<br>
+                        {% for error in form.username.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.password.label }}<br>
+                        {{ form.password(size=32) }}<br>
+                        {% for error in form.password.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.password2.label }}<br>
+                        {{ form.password2(size=32) }}<br>
+                        {% for error in form.password2.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.birthday.label }}<br>
+                        {{ form.birthday(size=32) }}<br>
+                        {% for error in form.birthday.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.gender.label }}<br>
+                        {{ form.gender(size=3) }}<br>
+                        {% for error in form.gender.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.address.label }}<br>
+                        {{ form.address(size=32) }}<br>
+                        {% for error in form.address.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.phone_number.label }}<br>
+                        {{ form.phone_number(size=32) }}<br>
+                        {% for error in form.phone_number.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    <p>{{ form.submit() }}</p>
+                    </form>
+                      </div>
+                    </div>
+                </div>
+{#                <p>New User? <a href="{{ url_for('index') }}">Click to Register!</a></p>#}
+            </div>
+        </div>
+    </body>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script  src="/static/index.js"></script>
+    </body>
+    {% endblock %}
+</html>

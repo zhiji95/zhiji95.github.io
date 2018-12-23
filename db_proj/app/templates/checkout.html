@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Checkout Page Discoveryvip.com</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <style>
+        input[type="number"] {
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body background="https://storage.pixteller.com/designs/designs-images/2017-07-30/11/backgrounds-passion-simple-background-image-1-597d9ce0dadc8.png">
+    <div class="container">
+        <h1>Shopping Checkout</h1> 
+        <form action="" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="upload" value="1">
+{#            <input type="hidden" name="business" value="womghei-facilitator@connect.hku.hk">#}
+{#            <input type="hidden" name="return" value="http://net.tutsplus.com/payment-complete/">    #}
+            <table class="table table-hover">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>Qty</th>
+                        <th>Item Name</th>
+                        <th>Cost</th>
+                        <th class="text-xs-right">Subtotal</th>
+                    </tr>
+                    {% for item in items %}
+                        <tr>
+                        <th>{{ item['amount']}}</th>
+                        <th>{{ item['name']}}</th>
+                        <th>{{ item['price']}}</th>
+                        </tr>
+                    {% endfor %}
+                <tr>
+                        <th>    </th>
+                        <th>    </th>
+                        <th>    </th>
+                        <th>       ${{ price }}</th>
+                        </tr>
+                </thead>
+                <tbody id="output"> </tbody>
+            </table>
+{#            <form action="" method="post" novalidate>#}
+{#                {{ form.hidden_tag() }}#}
+{#                <p{{ form.hidden(value = 1) }}>#}
+                  <p>
+                    {{ form.payments.label }}<br>
+                    {{ form.payments(size=1) }}<br>
+                    {% for error in form.payments.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+         <!--    <a href="{{ url_for("placeorder", username = username, items=items) }}"  class = "btn btn-success btn-block">Processed to Checkout</a> -->
+         <form action="POST">
+            <input type="submit" name ="placeorder" class="btn btn-primary btn-block" value="Checkout">
+         </form>
+{#            <input type="submit" class="btn btn-primary btn-block" value="Checkout with PayPal">#}
+{#            </form>#}
+            <a href="{{ url_for("index", username = username) }}" class="btn btn-success btn-block">Continue Shopping</a>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+
+</html>

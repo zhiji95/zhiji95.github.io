@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+
+body {
+  background: url(https://storage.pixteller.com/designs/designs-images/2017-07-30/11/backgrounds-passion-simple-background-image-1-597d9ce0dadc8.png) no-repeat fixed;
+  background-size: cover;
+  /*background-position: 50%;*/
+  font-family: 'Roboto';
+  color: #333;
+}
+.label{
+  background:white;
+}
+.container{
+  background: #1ab188;
+  background-position: center;
+  background-size:auto
+}
+.tabs,
+.form {
+  width: 800;
+
+  opacity: 0.8;
+  border-radius: 5px;
+}
+.Product{
+  font-size:100;
+  font-family:fantasy;
+
+}
+.price, .brand,.average_rating, .content{
+  font-size:30;
+  font-family:monospace;
+}
+
+.tabs {
+  background: #1ab188;
+  height: auto;
+  margin: 50px auto 10px;
+  color: #000;
+}
+.form {
+  font-color:black;
+  height: auto;
+  margin: 25px auto;
+  background: #000;
+}
+li {
+  display: block;
+  font-size:20;
+  font-family:monospace;
+
+  width: 25%;
+  height: 30px;
+  vertical-align: middle;
+  float: left;
+  margin: 15px;
+  padding: 0;
+  border-right: 2px solid #f5f5f5;
+}
+.row{
+  font-size:28;
+  font-family:monospace;
+  background: white;
+  margin:25px;
+}
+
+a{
+  background-size:cover;
+  font-family: monospace;
+  font-size:40;
+}
+input{
+  font-color:black;
+}
+
+
+
+p {
+  font-family: verdana;
+  font-size: 28;
+  font-color: #333;
+}
+.button{
+  width:1000;
+  margin:25;
+  vertical-align:middle;
+
+}
+a.btn, a.btn-primary, a.btn-sm{
+  font-size:50;
+  font-family:Arial Black;
+  width: 800px;
+  height: 80;
+  margin: 25px;
+  background: #85B3D1;
+}

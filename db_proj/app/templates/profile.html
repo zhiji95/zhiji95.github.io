@@ -1,0 +1,85 @@
+<head>
+    {% block content %}
+<meta charset = "utf-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel="stylesheet" href="/static/profile.css?v=<?php echo time(); ?>" type = "text/css", charset="utf-8">
+
+</head>
+
+<body>
+    <body>
+    <div class = "profile">
+        <div class = users>Users Profile</div>
+    </div>
+    <div class = "info">
+            <div>User ID:      {{ user.uid }}</div>
+            <div>Username:     {{ user.username }}</div>
+            <div>Birthday:     {{ user.birth_date }}</div>
+            <div>Gender:       {{ user.gender }}</div>
+            <div>Address:      {{ user.address }}</div>
+            <div>Phone number: {{ user.phone_number }}</div>
+    </div>
+
+    <div class="col-md-6 text-xs-right">
+        <a href="{{ url_for('payment', username = user.username)}}" class="btn btn-primary btn-sm"> Payment Method</a>
+        <a href="{{ url_for('cart', username = user.username)}}" class="btn btn-primary btn-sm">View Shopping Cart</a>
+    </div>
+
+
+    <div class="container">
+    {% for order in orders %} 
+        <a href = {{ url_for('product', pid = order['pid'], username = user.username) }}>
+            <div class = "order">
+                <li>Order id: {{ order['oid'] }}</li>
+                <li>Product Name: {{ order['name'] }}</li>
+                <li>Prices: ${{ order['price'] }}</li>
+            </div>
+        </a>
+            <div class = rating>
+            <form action="" method="post" novalidate>
+                {{ form.hidden_tag() }}
+                <p hidden>
+                {{ form.oid(value = order['oid']) }}
+                {{ form.pid(value = order['pid']) }}</p>
+                <p>
+                    {{ form.comment.label }}<br>
+                    {{ form.comment(size=32) }}<br>
+                    {% for error in form.comment.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+                <p>
+                    {{ form.rating.label }}<br>
+                    {{ form.rating(size=1) }}<br>
+                    {% for error in form.rating.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+            <p>{{ form.submit() }}</p>
+        </form>
+            </div>
+
+
+
+    {% endfor %}
+
+    </div>
+    <div>
+    {#        to home page module#}
+        {% if user%}
+            <a href="{{ url_for('index', username = user.username,login="Log Out")}}" class = "btn btn-primary btn-sm">Back</a>
+        {% endif %}
+        {% if not user%}
+            <a href="{{ url_for('home')}}" class = "btn btn-primary btn-sm">Back</a>
+        {% endif %}
+{#        to home page module#}
+    </div>
+
+</body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="/static/index.js"></script>
+
+</body>
+    {% endblock %}

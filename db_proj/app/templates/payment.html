@@ -1,0 +1,97 @@
+{#{% extends "base.html" %}#}
+<html lang="en" >
+    {% block content %}
+            <head>
+          <meta charset="UTF-8">
+          <title>Login or Register Form</title>
+
+
+          <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+          <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+              <link rel="stylesheet" href="/static/profile.css?v=<?php echo time(); ?" type = "text/css", charset="UTF-8">
+            <style type="text/css">
+
+    textarea {
+    width: 300px;
+    height: 7em;
+    }
+    select{
+    width: 300px;
+    height: 21em;
+    }
+    input, select, textarea {
+    color: black;
+    }
+    #example {
+    color: black;
+    }
+
+    </style>
+    	</head>
+        <div class = "profile">
+        <div class = users>Your Payment Methods</div>
+    </div>
+
+    <div class="container">
+    {% for payment in payments %}
+            <div class = "order">
+                <li>Name: {{ payment['name'] }}</li>
+                <li>Phone Number: {{ payment['phone_number'] }}</li>
+                <li>Bank: {{ payment['bank'] }}</li>
+                <li>Account Number: {{ payment['account_number'] }}</li>
+                <li>Billing Address: {{ payment['billing_address'] }}</li>
+            </div>
+        </a>
+    {% endfor %}
+    <div class = rating>
+            <form action="" method="post" novalidate>
+                {{ form.hidden_tag() }}
+                <p>
+                    {{ form.payname.label }}<br>
+                    {{ form.payname(size=32) }}<br>
+                    {% for error in form.payname.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+                <p>
+                    {{ form.payphone.label }}<br>
+                    {{ form.payphone(size=32) }}<br>
+                    {% for error in form.payphone.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+                <p>
+                    {{ form.paybank.label }}<br>
+                    {{ form.paybank(size=1) }}<br>
+                    {% for error in form.paybank.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+                <p> 
+                    {{ form.account.label }}<br>
+                    {{ form.account(size=32) }}<br>
+                    {% for error in form.account.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+                <p>
+                    {{ form.billaddress.label }}<br>
+                    {{ form.billaddress(size=32) }}<br>
+                    {% for error in form.billaddress.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </p>
+            <p>{{ form.submit() }}</p>
+        </form>
+            </div>
+
+    </div>
+        <div>
+        {#to home page module#}
+         <a href="{{ url_for('profile', username = username) }}" class = "btn btn-primary btn-sm">Back</a>
+		{#to home page module#}
+    </div>
+
+    {% endblock %}
+</html>

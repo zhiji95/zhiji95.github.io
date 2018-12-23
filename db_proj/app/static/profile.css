@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+
+body {
+  background: url(https://storage.pixteller.com/designs/designs-images/2017-07-30/11/backgrounds-passion-simple-background-image-1-597d9ce0dadc8.png) no-repeat fixed;
+  background-size: cover;
+  /*background-position: 50%;*/
+  font-family: 'Roboto';
+  color: #333;
+}
+.profile{
+  background:#85B3D1;
+  font-size:100;
+  font-family:monospace;
+  margin:25px;
+}
+.container{
+  margin-top:200px;
+  background:#A2B2C8;
+/*   margin:25px; */
+}
+.order{
+  display: block;
+  background:#85B3D1;
+  margin:25px;
+  font-size:18;
+  font-family:Arial Black;
+
+}
+a.btn, a.btn-primary, a.btn-sm{
+  font-size:50;
+  font-family:Arial Black;
+  width: 800px;
+  height: 80;
+  margin: 25px;
+  background: #85B3D1;
+}
+
+.rating{
+  display: block;
+  background:#ffffffb5;
+  margin:25px;
+  font-size:18;
+  font-family:Arial Black;
+}
+.info{
+  display:grid;
+  background: #85B3D1;
+  font-size: 20;
+  font-family:monospace;
+  margin:25px;
+}
+div li{
+  background: #A2B2C8;
+  padding: 5px;
+  margin: 5px;
+}

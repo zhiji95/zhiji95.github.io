@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Checkout Page Discoveryvip.com</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <style>
+        input[type="number"] {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>We are on it!</h1>    
+        <h2>Order Details</h2>
+
+        <form action="" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="upload" value="1">
+{#            <input type="hidden" name="business" value="womghei-facilitator@connect.hku.hk">#}
+{#            <input type="hidden" name="return" value="http://net.tutsplus.com/payment-complete/">    #}
+             <table class="table table-hover">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>Qty</th>
+                        <th>Item Name</th>
+                        <th>Cost</th>
+                        <th class="text-xs-right">Subtotal</th>
+                    </tr>
+                    {% for item in items %}
+                        <tr>
+                        <th>{{ item[2]}}</th>
+                        <th>{{ item[7]}}</th>
+                        <th>{{ item[6]}}</th>
+                        </tr>
+                    {% endfor %}
+                <tr>
+                        <th>    </th>
+                        <th>    </th>
+                        <th>    </th>
+                        <th>       ${{ price }}</th>
+                        </tr>
+                </thead>
+                <tbody id="output"> </tbody>
+            </table>
+
+            <a href="{{ url_for("profile", username = username) }}" class="btn btn-success btn-block">Back</a>
+        </form>
+    </div>
