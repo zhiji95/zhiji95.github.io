@@ -2,78 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480bb195-bf3b-41bc-9a74-bc69da6f0580" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2018/09/07/hello-world/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018/09/09/My-first-article/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2018/09/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2018/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.Rhistory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/fancybox_loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/fancybox_sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/helpers/fancybox_buttons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/helpers/jquery.fancybox-buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/helpers/jquery.fancybox-buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/helpers/jquery.fancybox-media.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/helpers/jquery.fancybox-thumbs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/helpers/jquery.fancybox-thumbs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/jquery.fancybox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancybox/jquery.fancybox.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/hw1_2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/hw1_2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/insert.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/proj1_1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/handlebars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Database/w4111.github.io_files/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Deep Learning for Computer Vision, Speech, and Language_files/materialize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Deep_Learning/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Reinforcement_Learning/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Reinforcement_Learning/slides_lecture02.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/Reinforcement_Learning/slides_lecture03.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/images/RL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/images/database.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/images/dl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/images/iot.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture_notes/iot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/referred_webpages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/static/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/static/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/static/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/static/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/static/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/base1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/templates/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/templates/payment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/app/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/templates/profile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="32" />
-          <entry key="html" value="1204" />
+          <entry key="html" value="1237" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="32" />
-          <entry key="HTML" value="1204" />
+          <entry key="HTML" value="1237" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
@@ -124,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="261" column="18" lean-forward="true" selection-start-line="261" selection-start-column="18" selection-end-line="261" selection-end-column="18" />
+            <state relative-caret-position="604">
+              <caret line="313" column="49" lean-forward="true" selection-start-line="313" selection-start-column="49" selection-end-line="313" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -134,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-426">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -153,8 +96,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4749">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="251">
+              <caret line="1476" column="39" selection-start-line="1476" selection-start-column="35" selection-end-line="1476" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +112,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -207,6 +157,8 @@
       <find>owl.carousel.js</find>
       <find>&lt;img</find>
       <find>cm-</find>
+      <find>templetes</find>
+      <find>next</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -297,27 +249,27 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16452074" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,19 +359,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/responsiveslides.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
@@ -439,21 +379,40 @@
     <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-426">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4749">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="251">
+          <caret line="1476" column="39" selection-start-line="1476" selection-start-column="35" selection-end-line="1476" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/responsiveslides.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="261" column="18" lean-forward="true" selection-start-line="261" selection-start-column="18" selection-end-line="261" selection-end-column="18" />
+        <state relative-caret-position="604">
+          <caret line="313" column="49" lean-forward="true" selection-start-line="313" selection-start-column="49" selection-end-line="313" selection-end-column="49" />
         </state>
       </provider>
     </entry>
