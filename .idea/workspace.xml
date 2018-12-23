@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="480bb195-bf3b-41bc-9a74-bc69da6f0580" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/p9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,28 +22,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="11" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="js" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="JavaScript" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="32" />
-          <entry key="html" value="1237" />
+          <entry key="html" value="1969" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="32" />
-          <entry key="HTML" value="1237" />
+          <entry key="HTML" value="1969" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
@@ -67,8 +54,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="313" column="49" lean-forward="true" selection-start-line="313" selection-start-column="49" selection-end-line="313" selection-end-column="49" />
+            <state relative-caret-position="395">
+              <caret line="323" column="34" lean-forward="true" selection-start-line="323" selection-start-column="34" selection-end-line="323" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -139,6 +135,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>agileinfo-social-grids</find>
@@ -159,7 +162,14 @@
       <find>cm-</find>
       <find>templetes</find>
       <find>next</find>
+      <find>TIPS</find>
+      <find>Berkeley</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>IoT</replace>
+      <replace>dl</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,6 +180,7 @@
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/css/owl.theme.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -206,6 +217,11 @@
             <path>
               <item name="zhiji95.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhiji95.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="db_proj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhiji95.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhiji95.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -215,10 +231,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,7 +272,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16452074" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16452074" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -409,10 +431,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="313" column="49" lean-forward="true" selection-start-line="313" selection-start-column="49" selection-end-line="313" selection-end-column="49" />
+        <state relative-caret-position="395">
+          <caret line="323" column="34" lean-forward="true" selection-start-line="323" selection-start-column="34" selection-end-line="323" selection-end-column="34" />
         </state>
       </provider>
     </entry>
