@@ -4,6 +4,7 @@
     <list default="true" id="480bb195-bf3b-41bc-9a74-bc69da6f0580" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,47 +16,60 @@
     <session id="-884906556">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="11" />
           <entry key="html" value="2" />
-          <entry key="js" value="14" />
+          <entry key="js" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="11" />
           <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="32" />
-          <entry key="html" value="1969" />
-          <entry key="js" value="1" />
+          <entry key="html" value="2310" />
+          <entry key="js" value="963" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="32" />
-          <entry key="HTML" value="1969" />
-          <entry key="JavaScript" value="1" />
+          <entry key="HTML" value="2310" />
+          <entry key="JavaScript" value="963" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="323" column="34" lean-forward="true" selection-start-line="323" selection-start-column="34" selection-end-line="323" selection-end-column="34" />
+            <state relative-caret-position="350">
+              <caret line="487" column="53" lean-forward="true" selection-start-line="487" selection-start-column="53" selection-end-line="487" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.cm-overlay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8040">
+              <caret line="335" column="17" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +77,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="576">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/calc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/learn-to-code.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-426">
+            <state relative-caret-position="240">
               <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
@@ -92,18 +127,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="35424">
               <caret line="1476" column="39" selection-start-line="1476" selection-start-column="35" selection-end-line="1476" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -118,17 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="5208">
               <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="1459" column="1" selection-start-line="1459" selection-start-column="1" selection-end-line="1459" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -139,6 +160,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -159,11 +181,14 @@
       <find>p8</find>
       <find>owl.carousel.js</find>
       <find>&lt;img</find>
-      <find>cm-</find>
       <find>templetes</find>
       <find>next</find>
       <find>TIPS</find>
       <find>Berkeley</find>
+      <find>tar</find>
+      <find>cm-</find>
+      <find>jsbin</find>
+      <find>Widgets</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -180,7 +205,10 @@
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/css/owl.theme.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/web/learn-to-code.js" />
+        <option value="$PROJECT_DIR$/web/js/learn-to-code.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/js/calc.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -224,6 +252,17 @@
               <item name="zhiji95.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zhiji95.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhiji95.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhiji95.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhiji95.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,6 +278,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/js" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -268,11 +308,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16452074" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -347,15 +387,6 @@
     <entry file="file://$PROJECT_DIR$/js/bars.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.cm-overlay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jarallax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -391,34 +422,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/jquery.cm-overlay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+        <state relative-caret-position="8040">
+          <caret line="335" column="17" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/calc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/learn-to-code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="1476" column="39" selection-start-line="1476" selection-start-column="35" selection-end-line="1476" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -431,17 +465,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35424">
+          <caret line="1476" column="39" selection-start-line="1476" selection-start-column="35" selection-end-line="1476" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5208">
+          <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="323" column="34" lean-forward="true" selection-start-line="323" selection-start-column="34" selection-end-line="323" selection-end-column="34" />
+        <state relative-caret-position="350">
+          <caret line="487" column="53" lean-forward="true" selection-start-line="487" selection-start-column="53" selection-end-line="487" selection-end-column="53" />
         </state>
       </provider>
     </entry>
