@@ -3,8 +3,6 @@ Default values are with a mobile-first perspective
 ======================================
 
 Project: responsive mobile-first navigation bar;
-Author: Brandon Dail;
-Copyright: MIT;
 Max-usefullness: minimal;
 
 */
@@ -237,3 +235,9 @@ an X*/
 }
 /*
 Media query for mid-size non-mobile devices*/
+
+/*
+Card*/
+.card.publication-card{
+    background-color: #d58512;
+}

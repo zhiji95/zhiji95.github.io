@@ -1,0 +1,66 @@
+/*.container {*/
+    /*background-color: #6C2EB9;*/
+    /*height: 5rem;*/
+/*}*/
+/*.row {*/
+    /*background-color: #FF9232;*/
+    /*height: 4.7rem;*/
+/*}*/
+
+/*[class*="col-"] {*/
+    /*background-color: #00C3AA;*/
+    /*height: 4.2rem;*/
+    /*border: 2px solid rgba(0, 0, 0, 0.3);*/
+/*}*/
+
+body.signin-body{
+    background-color: #e6f2ff;
+}
+
+.container.signin-container {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.card.signin-card{
+    padding: 40px 0px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+img.signin-img {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+form.signin-form{
+    max-width: 350px;
+    margin: auto;
+}
+
+button.signin-btn {
+    color: #ffffff;
+    background-color: #d64829;
+    width: 100%;
+}
+
+a.create-new-account {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
