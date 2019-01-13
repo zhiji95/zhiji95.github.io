@@ -1103,4 +1103,25 @@ body{
 		padding: .7em 0 0 0;
 	}
 }
+.publication-card {
+    margin: 5%;
+    padding: 5px;
+    opacity: 50%;
+}
+.card-body {
+    height: 180px;
+}
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+}
+
+button.card-btn {
+    background-color: #fdfffd;
+    color: #0f0f0f;
+    /*display: block;*/
+    width: 100%
+
+
+}
 /*-- //responsive --*/
