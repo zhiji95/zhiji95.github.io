@@ -1,7 +1,7 @@
 $(function () {
     $('.img-mouse').on('mouseover', function (e) {
         var pdfArr = {
-            "i1": "EI2018_final.png",
+            "i1": "b",
             "i2": "Predicting_stock_price_trend_using machine_learning_approach_ACM_submit _publication.png",
             "i3": "GANs-face-completion.png"
         };
