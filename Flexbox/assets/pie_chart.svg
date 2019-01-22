@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-pie_chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-925.000000, -910.000000)" fill-rule="nonzero">
+            <g id="Group-6" transform="translate(240.000000, 600.000000)">
+                <g id="Group-4" transform="translate(0.000000, 310.000000)">
+                    <g id="Group-3-Copy">
+                        <g id="Group-2">
+                            <g id="icons8-pie_chart" transform="translate(685.000000, 0.000000)">
+                                <path d="M75.2380126,0 C33.8646295,0 0,33.7575 0,75 C0,116.2425 33.8646295,150 75.2380126,150 C96.9705125,150 116.611396,140.835 130,126.255 L75.2380126,75 L75.2380126,0 Z" id="Shape" fill="#00BCD4"></path>
+                                <path d="M150,75 C150,33.7575 116.2425,0 75,0 L75,75 L150,75 Z" id="Shape" fill="#448AFF"></path>
+                                <path d="M75,75 L129.58875,126 C142.09125,112.735075 150,94.9029851 150,75 L75,75 Z" id="Shape" fill="#3F51B5"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
