@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480bb195-bf3b-41bc-9a74-bc69da6f0580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Flexbox/assets/assistant_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flexbox/assets/graph_lines.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flexbox/assets/pie_chart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flexbox/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flexbox/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flexbox/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/zhiji.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/zhiji.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +20,9 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,14 +48,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1657" />
-          <entry key="html" value="7233" />
+          <entry key="html" value="7234" />
           <entry key="js" value="1307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1657" />
-          <entry key="HTML" value="7233" />
+          <entry key="HTML" value="7234" />
           <entry key="JavaScript" value="1307" />
         </counts>
       </usages-collector>
@@ -71,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="161" column="123" selection-start-line="161" selection-start-column="123" selection-end-line="161" selection-end-column="123" />
+            <state relative-caret-position="459">
+              <caret line="79" column="51" lean-forward="true" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -81,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/js/zhiji.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -125,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jquery.cm-overlay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7584">
+            <state relative-caret-position="6840">
               <caret line="316" column="9" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -137,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/learn-to-code.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="336">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -228,7 +223,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="716" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -237,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +253,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,11 +304,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16881259" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17095852" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -376,13 +371,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jarallax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/SmoothScroll.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -408,21 +397,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/responsiveslides.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35424">
           <caret line="1476" column="39" selection-start-line="1476" selection-start-column="35" selection-end-line="1476" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -493,6 +473,20 @@
     <entry file="file://$PROJECT_DIR$/Flexbox/assets/pie_chart.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="79" column="51" lean-forward="true" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zhiji.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26880">
@@ -514,9 +508,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Flexbox/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.cm-overlay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7584">
+        <state relative-caret-position="6840">
           <caret line="316" column="9" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -526,32 +527,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/learn-to-code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="336">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flexbox/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/zhiji.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="161" column="123" selection-start-line="161" selection-start-column="123" selection-end-line="161" selection-end-column="123" />
         </state>
       </provider>
     </entry>
