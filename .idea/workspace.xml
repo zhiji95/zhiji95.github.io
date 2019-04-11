@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="480bb195-bf3b-41bc-9a74-bc69da6f0580" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/screenshots.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/resume_sde.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/resume_sde.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +18,15 @@
     <session id="-884906556">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,14 +52,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1657" />
-          <entry key="html" value="7337" />
+          <entry key="html" value="7628" />
           <entry key="js" value="1307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1657" />
-          <entry key="HTML" value="7337" />
+          <entry key="HTML" value="7628" />
           <entry key="JavaScript" value="1307" />
         </counts>
       </usages-collector>
@@ -72,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="725" column="22" lean-forward="true" selection-start-line="725" selection-start-column="22" selection-end-line="725" selection-end-column="22" />
+            <state relative-caret-position="318">
+              <caret line="715" column="36" lean-forward="true" selection-start-line="715" selection-start-column="36" selection-end-line="715" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -160,7 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>github</find>
       <find>.fa-facebook</find>
       <find>pdf</find>
       <find>Clients</find>
@@ -190,6 +187,7 @@
       <find>去</find>
       <find>btn-lg</find>
       <find>ABOUT</find>
+      <find>contact me</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -320,7 +318,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1795422" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18383405" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -484,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="725" column="22" lean-forward="true" selection-start-line="725" selection-start-column="22" selection-end-line="725" selection-end-column="22" />
+        <state relative-caret-position="318">
+          <caret line="715" column="36" lean-forward="true" selection-start-line="715" selection-start-column="36" selection-end-line="715" selection-end-column="36" />
         </state>
       </provider>
     </entry>
