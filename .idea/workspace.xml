@@ -5,19 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480bb195-bf3b-41bc-9a74-bc69da6f0580" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/oldimages/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oldimages/p9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +18,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="399" column="32" lean-forward="true" selection-start-line="399" selection-start-column="32" selection-end-line="406" selection-end-column="38" />
+            <state relative-caret-position="719">
+              <caret line="472" column="38" selection-start-line="472" selection-start-column="38" selection-end-line="472" selection-end-column="38" />
               <folding>
-                <marker date="1562185085329" expanded="true" signature="9953:10300" ph="..." />
+                <marker date="1562185408626" expanded="true" signature="9953:10300" ph="..." />
               </folding>
             </state>
           </provider>
@@ -270,12 +257,12 @@
       <updated>1545491422826</updated>
       <workItem from="1561579860562" duration="1172000" />
       <workItem from="1562181863810" duration="16000" />
-      <workItem from="1562182106244" duration="2832000" />
+      <workItem from="1562182106244" duration="3136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4020000" />
+    <option name="totallyTimeSpent" value="4324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -512,10 +499,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="399" column="32" lean-forward="true" selection-start-line="399" selection-start-column="32" selection-end-line="406" selection-end-column="38" />
+        <state relative-caret-position="719">
+          <caret line="472" column="38" selection-start-line="472" selection-start-column="38" selection-end-line="472" selection-end-column="38" />
           <folding>
-            <marker date="1562185085329" expanded="true" signature="9953:10300" ph="..." />
+            <marker date="1562185408626" expanded="true" signature="9953:10300" ph="..." />
           </folding>
         </state>
       </provider>
