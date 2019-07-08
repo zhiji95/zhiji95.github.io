@@ -1,3 +1,10 @@
+var date = new Date();
+var timestamp1;
+var timestamp2;
+function startRecording() {
+        alert("start recoding!");
+        timestamp1 = date.getTime();
+}
 $(function() {
     var resultCollector = Quagga.ResultCollector.create({
         capture: true,
@@ -24,7 +31,6 @@ $(function() {
     var App = {
         init: function() {
             var self = this;
-
             Quagga.init(this.state, function(err) {
                 if (err) {
                     return self.handleError(err);
@@ -257,6 +263,7 @@ $(function() {
     App.init();
 
     Quagga.onProcessed(function(result) {
+
         var drawingCtx = Quagga.canvas.ctx.overlay,
             drawingCanvas = Quagga.canvas.dom.overlay;
 
@@ -282,9 +289,9 @@ $(function() {
 
     Quagga.onDetected(function(result) {
         var code = result.codeResult.code;
-
+        timestamp2 = date.getTime();
         if (App.lastResult !== code) {
-            alert(code);
+            alert(code, timestamp2-timestamp1);
             App.lastResult = code;
             var $node = null, canvas = Quagga.canvas.dom.image;
             $node = $('<li><div class="thumbnail"><div class="imgWrapper"><img /></div><div class="caption"><h4 class="code"></h4></div></div></li>');
