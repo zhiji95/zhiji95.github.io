@@ -1,9 +1,11 @@
-var date = new Date();
 var timestamp1;
 var timestamp2;
+var canStart = false;
 function startRecording() {
         alert("start recoding!");
-        timestamp1 = date.getTime();
+        canStart = true;
+        timestamp1 = Date.now();
+
 }
 $(function() {
     var resultCollector = Quagga.ResultCollector.create({
@@ -288,17 +290,25 @@ $(function() {
     });
 
     Quagga.onDetected(function(result) {
-        var code = result.codeResult.code;
-        timestamp2 = date.getTime();
-        if (App.lastResult !== code) {
-            alert(code, timestamp2-timestamp1);
-            App.lastResult = code;
-            var $node = null, canvas = Quagga.canvas.dom.image;
-            $node = $('<li><div class="thumbnail"><div class="imgWrapper"><img /></div><div class="caption"><h4 class="code"></h4></div></div></li>');
-            $node.find("img").attr("src", canvas.toDataURL());
-            $node.find("h4.code").html(code);
-            $("#result_strip ul.thumbnails").prepend($node);
+        if (canStart) {
+            var code = result.codeResult.code;
+            timestamp2 = Date.now();
+            var elapsed = timestamp2 - timestamp1;
+            var difference = new Date(elapsed);
+            console.log(difference);
+            var diff_second = difference.getSeconds();
+            var diff_mili = difference.getMilliseconds();
+            if (App.lastResult !== code) {
+                alert("time for scanning is "+ diff_second+":"+diff_mili);
+                App.lastResult = code;
+                var $node = null, canvas = Quagga.canvas.dom.image;
+                $node = $('<li><div class="thumbnail"><div class="imgWrapper"><img /></div><div class="caption"><h4 class="code"></h4></div></div></li>');
+                $node.find("img").attr("src", canvas.toDataURL());
+                $node.find("h4.code").html(code);
+                $("#result_strip ul.thumbnails").prepend($node);
+            }
         }
+
     });
 
 });

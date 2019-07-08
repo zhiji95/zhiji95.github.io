@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480bb195-bf3b-41bc-9a74-bc69da6f0580" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/barcode/live_w_locator.html" beforeDir="false" afterPath="$PROJECT_DIR$/barcode/live_w_locator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/barcode/live_w_locator.js" beforeDir="false" afterPath="$PROJECT_DIR$/barcode/live_w_locator.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,20 +40,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barcode/live_w_locator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="31" column="55" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="138">
+              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barcode/quagga.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="4520" column="68" selection-start-line="4520" selection-start-column="61" selection-end-line="4520" selection-end-column="68" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barcode/css/colors.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/barcode/live_w_locator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="292" column="38" lean-forward="true" selection-start-line="292" selection-start-column="38" selection-end-line="292" selection-end-column="38" />
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -120,7 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>next</find>
       <find>TIPS</find>
       <find>Berkeley</find>
       <find>tar</find>
@@ -148,8 +155,9 @@
       <find>signup</find>
       <find>thumbnail</find>
       <find>stop</find>
-      <find>onpro</find>
       <find>stat</find>
+      <find>onpro</find>
+      <find>code_39</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -273,12 +281,12 @@
       <updated>1545491422826</updated>
       <workItem from="1561579860562" duration="1172000" />
       <workItem from="1562181863810" duration="16000" />
-      <workItem from="1562182106244" duration="5963000" />
+      <workItem from="1562182106244" duration="7400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7151000" />
+    <option name="totallyTimeSpent" value="8588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -294,7 +302,7 @@
       <window_info anchor="bottom" id="Python Console" order="4" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -452,13 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flexbox/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.cm-overlay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5130">
@@ -486,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="235" column="2" selection-start-line="235" selection-start-column="2" selection-end-line="235" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
@@ -503,11 +497,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barcode/css/colors.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/barcode/live_w_locator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="68" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barcode/quagga.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="235" column="2" selection-start-line="235" selection-start-column="2" selection-end-line="235" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flexbox/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barcode/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -516,17 +525,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barcode/live_w_locator.html">
+    <entry file="file://$PROJECT_DIR$/barcode/css/colors.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="31" column="55" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barcode/quagga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="4520" column="68" selection-start-line="4520" selection-start-column="61" selection-end-line="4520" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barcode/live_w_locator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="292" column="38" lean-forward="true" selection-start-line="292" selection-start-column="38" selection-end-line="292" selection-end-column="38" />
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
