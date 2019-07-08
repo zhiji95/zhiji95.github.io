@@ -1,9 +1,10 @@
 var timestamp1;
 var timestamp2;
 var canStart = false;
-var configs = document.getElementById("configs");
-configs.style.display = "none";
+
+// configs.style.display = "none";
 function showSettings() {
+    var configs = document.getElementById("configs");
     if (configs.style.display === "none") {
     configs.style.display = "block";
     } else {
@@ -11,10 +12,9 @@ function showSettings() {
     }
 }
 function startRecording() {
-        alert("start recoding!");
-        canStart = true;
-        timestamp1 = Date.now();
-
+    alert("start recoding!");
+    canStart = true;
+    timestamp1 = Date.now();
 }
 $(function() {
     var resultCollector = Quagga.ResultCollector.create({
