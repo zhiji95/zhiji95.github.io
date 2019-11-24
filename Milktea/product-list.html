@@ -1,0 +1,609 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>HaFood</title>
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Pe Icon 7 Stroke css ======-->
+    <link rel="stylesheet" href="assets/css/Pe-icon-7-stroke.css">
+
+    <!--====== Ion Icons css ======-->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!--====== PRELOADER  PART START ======-->
+
+    <div id="preloader">
+        <div id="loader">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!--====== PRELOADER  PART ENDS ======-->
+
+    <!--====== SEARCH PART START ======-->
+
+    <div class="search-box">
+        <div class="search-header">
+            <div class="container mt-60">
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="search-title">Search</h5> <!-- search title -->
+                    </div>
+                    <div class="col-6">
+                        <div class="search-close text-right">
+                            <button class="search-close-btn">Close <span></span><span></span></button>
+                        </div> <!-- search close -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- search header -->
+        <div class="search-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="search-form">
+                            <form action="#">
+                                <input type="text" placeholder="Search for Products">
+                                <button><i class="flaticon-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- search body -->
+    </div>
+
+    <!--====== SEARCH PART ENDS ======-->
+
+
+    <!--====== HEADER  PART START ======-->
+
+    <header class="header-area">
+        <div class="navigation navigation-2 navigation-page fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo.png" alt="Logo">
+                            </a> <!-- Logo -->
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button> <!-- navbar-toggler -->
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item"><a href="index.html">Home</a></li>
+                                    <li class="nav-item"><a href="product-list.html">Product List</a></li>
+                                    <li class="nav-item"><a href="product-details.html">Product Details</a></li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            <div class="navbar-icon d-none d-sm-block">
+                                <ul>
+                                    <li><a class="search-open" href="#"><i class="pe-7s-search"></i></a></li>
+                                </ul>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navigation -->
+    </header>
+
+    <!--====== HEADER  PART ENDS ======-->
+
+    <!--====== PAGE TITLE  PART START ======-->
+
+    <section class="page-title-area d-flex align-items-center bg_cover" style="background-image: url(assets/images/page-title-bg.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-item text-center">
+                        <h3 class="title">Product List</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Product List</li>
+                            </ol>
+                        </nav>
+                    </div> <!-- page title item -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- row -->
+        <div class="page-title-shape">
+            <img src="assets/images/banner-shape.png" alt="shape">
+        </div> <!-- page title shape -->
+    </section>
+
+    <!--====== PAGE TITLE  PART ENDS ======-->
+
+    <!--====== PRODUCT  PART START ======-->
+
+    <section class="product-area product-area-2">
+        <div class="container">
+            <div class="row align-items-center pt-65 pb-20">
+                <div class="col-lg-3 col-md-4">
+                    <div class="product-grid-tab d-flex">
+                        <span>5 products </span>
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="ion ion-ios-list"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="ion ion-ios-keypad"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <div class="product-grid-select float-left float-md-right">
+                        <ul>
+                            <li>
+                                <select>
+                                    <option value="1">Sort by popularity</option>
+                                    <option value="2">Sort by popularity</option>
+                                    <option value="3">Sort by popularity</option>
+                                    <option value="4">Sort by popularity</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select>
+                                    <option value="1">Select category</option>
+                                    <option value="2">Select category</option>
+                                    <option value="3">Select category</option>
+                                    <option value="4">Select category</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-9">
+                            <div class="product-list-thumb mt-30">
+                                <img src="assets/images/Bobaguys.jpg" alt="product">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-8 col-sm-9">
+                            <div class="product-list-content mt-30">
+                                <h5 class="title">Boba Guys</h5>
+                                <span>$5.50</span>
+                                <p>Tacimates sent ucius concludaturque, ea option maiestatis deterruisset sea. Mea dolores perfecto cu, ea dicat ocurreret posidonium quo. An veritus omnesque rationibus quo, ad populo pertinax cotidieque quo. </p>
+                                <ul>
+                                    <li><a href="#"><i class="ion ion-ios-heart-empty"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-search"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-repeat"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-9">
+                            <div class="product-list-thumb mt-30">
+                                <img src="assets/images/TheAlley.jpg" alt="product">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-8 col-sm-9">
+                            <div class="product-list-content mt-30">
+                                <h5 class="title">The Alley</h5>
+                                <span>$5.50</span>
+                                <p>Tacimates sent ucius concludaturque, ea option maiestatis deterruisset sea. Mea dolores perfecto cu, ea dicat ocurreret posidonium quo. An veritus omnesque rationibus quo, ad populo pertinax cotidieque quo. </p>
+                                <ul>
+                                    <li><a href="#"><i class="ion ion-ios-heart-empty"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-search"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-repeat"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-9">
+                            <div class="product-list-thumb mt-30">
+                                <img src="assets/images/TigerSuger.jpg" alt="product">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-8 col-sm-9">
+                            <div class="product-list-content mt-30">
+                                <h5 class="title">Tiger Suger</h5>
+                                <span>$5.25</span>
+                                <p>Tacimates sent ucius concludaturque, ea option maiestatis deterruisset sea. Mea dolores perfecto cu, ea dicat ocurreret posidonium quo. An veritus omnesque rationibus quo, ad populo pertinax cotidieque quo. </p>
+                                <ul>
+                                    <li><a href="#"><i class="ion ion-ios-heart-empty"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-search"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-repeat"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-9">
+                            <div class="product-list-thumb mt-30">
+                                <img src="assets/images/Rabbit.jpg" alt="product">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-8 col-sm-9">
+                            <div class="product-list-content mt-30">
+                                <h5 class="title">Rabbit Rabbit</h5>
+                                <span>$4.00</span>
+                                <p>Tacimates sent ucius concludaturque, ea option maiestatis deterruisset sea. Mea dolores perfecto cu, ea dicat ocurreret posidonium quo. An veritus omnesque rationibus quo, ad populo pertinax cotidieque quo. </p>
+                                <ul>
+                                    <li><a href="#"><i class="ion ion-ios-heart-empty"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-search"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-repeat"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-9">
+                            <div class="product-list-thumb mt-30">
+                                <img src="assets/images/Yifang.jpg" alt="product">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-8 col-sm-9">
+                            <div class="product-list-content mt-30">
+                                <h5 class="title">Yi Fang</h5>
+                                <span>$5.00</span>
+                                <p>Tacimates sent ucius concludaturque, ea option maiestatis deterruisset sea. Mea dolores perfecto cu, ea dicat ocurreret posidonium quo. An veritus omnesque rationibus quo, ad populo pertinax cotidieque quo. </p>
+                                <ul>
+                                    <li><a href="#"><i class="ion ion-ios-heart-empty"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-search"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-repeat"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-1.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Grape</h6>
+                                </a>
+                                <ul>
+                                    <li>$15.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-2.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Red Pepper</h6>
+                                </a>
+                                <span>Sale</span>
+                                <ul>
+                                    <li>$45.00</li>
+                                    <li class="item-2"> $70.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-7.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Cauliflower</h6>
+                                </a>
+                                <ul>
+                                    <li>$45.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-5.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Apple</h6>
+                                </a>
+                                <ul>
+                                    <li>$25.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-6.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Corn</h6>
+                                </a>
+                                <ul>
+                                    <li>$45.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/seller-1.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Carrots</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-4.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Eggplant</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-3.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Onions & Garlic</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/seller-2.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Onions & Garlic</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-3.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Potatoes & Yams</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-1.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Grape</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-5.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Cauliflower</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-7.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Potatoes & Yams</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-8.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Cauliflower</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/seller-1.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Onions & Garlic</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-product mt-30">
+                                <img src="assets/images/product-6.jpg" alt="product">
+                                <a href="#">
+                                    <h6 class="title">Carrots</h6>
+                                </a>
+                                <ul>
+                                    <li>$32.00</li>
+                                </ul>
+                            </div> <!-- single product -->
+                        </div>
+                    </div> <!-- row -->
+                </div>
+            </div>
+        </div> <!-- container -->
+    </section>
+
+    <!--====== PRODUCT  PART ENDS ======-->
+
+    <!--====== BLOG GRID PART START ======-->
+
+    <div class="blog-list-area pt-30 pb-90">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="blog-list-item">
+                        <div class="pagination-area d-flex justify-content-between mt-60 pt-40">
+                            <div class="pagination-item-1">
+                                <ul>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                </ul>
+                            </div>
+                            <div class="pagination-item-2">
+                                <ul>
+                                    <li><a href="#"><i class="ion ion-ios-arrow-back"></i></a></li>
+                                    <li><a href="#"><i class="ion ion-ios-arrow-forward"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== BLOG GRID PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <section class="footer-area gray-bg pt-60 pb-85">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="footer-item-1 mt-30">
+                        <a href="index.html"><img src="assets/images/logo-2.png" alt="logo"></a>
+                        <span>Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></span>
+                        <ul>
+                            <li><a href="#">Quality policy</a></li>
+                            <li><a href="#">Customer Policy </a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                        <div class="footer-info">
+                            <ul>
+                                <li><i class="ion ion-md-pin"></i> 123 New Design Str, ABC Building, <br> Melbourne, Australia</li>
+                                <li><i class="ion ion-ios-mail"></i>example@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-2 col-md-2 col-sm-4">
+                    <div class="footer-social mt-30">
+                        <h5 class="title">Social Links</h5>
+                        <ul>
+                            <li><a href="https://www.facebook.com/info.tanver">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="skype:live:taherul.islam_1">Skype</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-8">
+                    <div class="footer-item-2 mt-30">
+                        <h5 class="title">Newsletters</h5>
+                        <form action="#">
+                            <div class="input-box mt-25">
+                                <input type="email" placeholder="Your email">
+                            </div>
+                            <div class="input-box mt-25">
+                                <button class="main-btn">Submit <i class="ion ion-ios-send"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TO TOP ======-->
+    <div class="back-to-top">
+        <a href="">
+            <i class="ion ion-md-arrow-up"></i>
+        </a>
+    </div>
+    <!--====== BACK TO TOP ======-->
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Nice Select js ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
